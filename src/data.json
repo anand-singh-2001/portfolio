@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "WeatherVue",
+      "description":["A weather application that provides weather conditions for the current location and allows users to search for weather conditions at other places.","Utilized Geolocation API to obtain user location permission for retrieving current weather conditions.","Implemented the AsyncPaginate component from react-select-async-paginate for designing the search functionality."] ,
+      "imageSrc": "Images/weather1.png",
+      "url": "https://my-weather-app-steel.vercel.app"
+    },
+    {
+      "title": "Xcripto",
+      "description": [
+        "Created a crypto currency application that provides real-time data for stock exchanges and coins.", "Implemented 24 hour forecast for coins with different time-duration forecasts.","Linked stock exchanges to their respective official websites for trading purposes."
+      ],
+      "imageSrc": "Images/xcripto2.avif",
+      "url": "https://project-3-mocha.vercel.app/"
+    },
+
+    {
+      "title": "Shopping Cart",
+      "description": ["Developed a shopping cart using useReducer () hook and Context API for state management as an alternative to Redux.","Implemented functionalities like adding and removing products, filtering products based on user specific criteria, etc.","Suitable for integration into an E-commerce website to efficiently manage the cart section."],
+      "imageSrc": "Images/cart1.avif",
+      "url": "https://shopping-cart-mu-sage.vercel.app/"
+    },
+    {
+      "title":"GymMaster",
+      "description":["Avail from 29th of August"],
+      "imageSrc":"Images/gym_app.png"
+      
+    },
+    {
+      "title":"Yodo",
+      "description":["Unavailable due to API changes"],
+      "imageSrc":"Images/Yodo1.png"
+      
+    }
+  ]
+}
