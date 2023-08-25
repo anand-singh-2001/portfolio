@@ -15,34 +15,44 @@ const Skills = () => {
       </h4>
       <div className="skills-section">
         <div className="boxes">
-          <IoLogoJavascript size={50} />
+          <IoLogoJavascript size={70} className="box" />
+          <div className="box_overlay">JavaScript</div>
         </div>
         <div className="boxes">
-          <FaReact size={50} />
+          <FaReact size={70} className="box" />
+          <div className="box_overlay">React</div>
         </div>
         <div className="boxes">
-          <FaCss3 size={50} />
+          <FaCss3 size={70} className="box" />
+          <div className="box_overlay">CSS</div>
         </div>
         <div className="boxes">
-          <AiFillHtml5 size={50} />
+          <AiFillHtml5 size={70} className="box" />
+          <div className="box_overlay">HTML</div>
         </div>
         <div className="boxes">
-          <FaPython size={50} />
+          <FaPython size={70} className="box" />
+          <div className="box_overlay">Python</div>
         </div>
         <div className="boxes">
-          <FaNodeJs size={50} />
+          <FaNodeJs size={70} className="box" />
+          <div className="box_overlay">NodeJS</div>
         </div>
         <div className="boxes">
-          <TbBrandRedux size={50} />
+          <TbBrandRedux size={70} className="box" />
+          <div className="box_overlay">Redux</div>
         </div>
         <div className="boxes">
-          <SiExpress size={50} />
+          <SiExpress size={70} className="box" />
+          <div className="box_overlay">Express</div>
         </div>
         <div className="boxes">
-          <SiFirebase size={50} />
+          <SiFirebase size={70} className="box" />
+          <div className="box_overlay">Firebase</div>
         </div>
         <div className="boxes">
-          <SiMongodb size={50} />
+          <SiMongodb size={70} className="box" />
+          <div className="box_overlay">MongoDb</div>
         </div>
       </div>
     </>

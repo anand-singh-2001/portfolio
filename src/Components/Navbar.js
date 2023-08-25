@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import giphy from "../Assets/giphy.gif";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -42,7 +43,11 @@ const Navbar = () => {
             onClick={() => setShow(false)}
           />
         </div>
-        <div className="burger" onClick={() => setShow(true)}>
+        <a href="#home" className="giphy">
+          <img src={giphy} alt="gif" className="gif" />{" "}
+        </a>
+
+        <div className="burger" onClick={() => setShow((prev) => !prev)}>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
