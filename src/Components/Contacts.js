@@ -95,9 +95,7 @@ const Contacts = () => {
         )}
       </div>
       <div className="contact_description">
-        <h4 className="heading" style={{ color: "blue" }}>
-          CONTACT
-        </h4>
+        <h4 className="heading">CONTACT</h4>
         <strong style={{ fontSize: "50px" }}>
           Feel we could work together?
         </strong>

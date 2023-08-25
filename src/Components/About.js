@@ -9,7 +9,7 @@ const About = () => {
     <div className="about">
       <Lottie animationData={animations} loop={true} className="lottie" />
       <div className="about_desc">
-        <h4 style={{ color: "blue", marginBottom: "20px" }}>ABOUT</h4>
+        <h4 className="heading">ABOUT</h4>
 
         <p style={{ letterSpacing: "2px" }}>
           <strong>Creative Frontend Developer</strong> with a proven track

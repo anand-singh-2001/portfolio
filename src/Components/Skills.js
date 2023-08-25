@@ -10,7 +10,7 @@ import { SiExpress, SiFirebase, SiMongodb } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <h4 className="heading" id="skills" style={{ color: "blue" }}>
+      <h4 className="heading" id="skills">
         TOOLS
       </h4>
       <div className="skills-section">

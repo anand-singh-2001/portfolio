@@ -15,9 +15,11 @@ const Projects = () => {
     speed: 600,
     slidesToShow: 3,
     centerMode: true,
+    swipe: true,
+    slidesToScroll: 1,
     centerPadding: 0,
     // autoplay: "true",
-    autoplaySpeed: 3000,
+    // autoplaySpeed: 3000,
     focusOnSelect: true,
     pauseOnHover: true,
     nextArrow: <BiRightArrow className="slick-next" />,
@@ -47,13 +49,13 @@ const Projects = () => {
       {/* <h2 className="heading" style={{ color: "blue" }}>
         WORK
       </h2> */}
-      <div
+      {/* <div
         style={{
           position: "relative",
           minHeight: "200px",
           fontWeight: "900",
-        }}>
-        <Typewriter
+        }}> */}
+      {/* <Typewriter
           options={{
             strings: [
               "<span >Dig into my works</span>",
@@ -65,8 +67,11 @@ const Projects = () => {
             cursor: "",
             wrapperClassName: "typewriterpara1",
           }}
-        />
-      </div>
+        /> */}
+      {/* </div> */}
+      <h2 className="heading" style={{ marginBottom: "50px" }}>
+        WORK
+      </h2>
 
       <Slider className="slider" {...settings}>
         {data?.projects?.map((project, id) => (
