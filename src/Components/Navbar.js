@@ -35,7 +35,7 @@ const Navbar = () => {
       <nav className="nav">
         <div
           className={show ? "navbar nav-active" : "navbar"}
-          onClick={() => setShow(!show)}
+          onClick={() => setShow(false)}
           ref={ref}>
           <a href="#home">Home</a>
           <a href="#skills">Skills</a>
@@ -43,7 +43,8 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
           <MdKeyboardArrowUp
             className="arrow_up"
-            onClick={() => setShow(!show)}
+            onClick={() => setShow(false)}
+            ref={ref}
           />
         </div>
         <div
