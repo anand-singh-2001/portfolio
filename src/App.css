@@ -41,40 +41,30 @@ body {
 
 .burger {
   display: none;
-
   cursor: pointer;
-  right: 0;
+  /* right: 0; */
   z-index: 20;
+  margin-right: 10px;
+  margin-top: -1px;
 }
 
-.burger div {
+/* .burger div {
   width: 25px;
   height: 3px;
   background-color: white;
   margin: 5px;
+} */
+.nav_face {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 2px solid black;
 }
 .arrow_up {
   display: none;
   height: 40px;
   width: 40px;
   animation: arrow 1.5s ease-in-out infinite;
-}
-.giphy {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.gif {
-  display: none;
-  /* top: 0;
-  left: 20px; */
-  border-radius: 30px;
-  cursor: pointer;
-  height: 57px;
-  width: 77px;
-  border: 1px solid whitesmoke;
-  backdrop-filter: brightness(150%);
-  /* margin-right: 100px; */
 }
 
 @keyframes arrow {
@@ -466,6 +456,12 @@ body {
   width: 50vw;
   position: absolute;
   max-height: 500px;
+  /* backdrop-filter: blur(8px); */
+}
+.lottie_message:active {
+  .message_form {
+    display: none;
+  }
 }
 .contact_description {
   margin-right: 100px;
@@ -693,8 +689,6 @@ body {
   }
   .burger {
     display: block;
-    margin-right: 20px;
-    margin-top: -50px;
   }
   .gif {
     display: block;

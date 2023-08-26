@@ -1,8 +1,6 @@
 import React from "react";
 import animations from "../Assets/animation.json";
 import Lottie from "lottie-react";
-import Typewriter from "typewriter-effect";
-import { motion } from "framer-motion";
 
 const About = () => {
   return (

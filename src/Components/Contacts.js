@@ -4,7 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import arrow_animation from "../Assets/arrow_animation.json";
 import Lottie from "lottie-react";
 import { HiOutlineMail } from "react-icons/hi";
-import Popup from "reactjs-popup";
+// import Popup from "reactjs-popup";
 
 const Contacts = () => {
   const form = useRef();
@@ -29,17 +29,20 @@ const Contacts = () => {
           console.log(error.text);
         }
       );
-    e.target.reset();
-  };
 
-  const handleClick = () => {
     setShow(!show);
     const interval = setTimeout(() => {
       setShow(false);
       setName("");
       setEmail("");
     }, 12000);
+    e.target.reset();
   };
+
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+
+  // };
 
   return (
     <div className="message_section" id="contact">
@@ -61,11 +64,11 @@ const Contacts = () => {
               required
               placeholder="Your name here"
             />
-            {!name && (
+            {/* {!name && (
               <p style={{ fontSize: "12px", color: "red", marginTop: "-5px" }}>
                 * Required
               </p>
-            )}
+            )} */}
             <label>EMAIL </label>
             <input
               type="email"
@@ -75,17 +78,17 @@ const Contacts = () => {
               required
               placeholder="Your email"
             />
-            {!email && (
+            {/* {!email && (
               <p style={{ fontSize: "12px", color: "red", marginTop: "-5px" }}>
                 * Required
               </p>
-            )}
+            )} */}
             <label>MESSAGE </label>
             <textarea name="message" required placeholder="Your message" />
 
             <button
               className="submit_button"
-              onClick={handleClick}
+              // onClick={handleClick}
               type="submit"
               value="Send"
               disabled={!email || !name}>

@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import giphy from "../Assets/giphy.gif";
+import Lottie from "lottie-react";
+import animation from "../Assets/nav animation.json";
+import face from "../Assets/face2.png";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -43,14 +46,12 @@ const Navbar = () => {
             onClick={() => setShow(false)}
           />
         </div>
-        <a href="#home" className="giphy">
-          <img src={giphy} alt="gif" className="gif" />{" "}
-        </a>
 
         <div className="burger" onClick={() => setShow((prev) => !prev)}>
+          {/* <div className="line"></div>
           <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+          <div className="line"></div> */}
+          <img src={face} alt="face" className="nav_face" />
         </div>
       </nav>
     </>
