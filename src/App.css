@@ -433,13 +433,14 @@ body {
   border: 1px solid rgb(172, 148, 250);
   background-color: black;
   color: honeydew;
+  cursor: pointer;
 }
 .submit_button:disabled {
   background-color: aliceblue;
   color: black;
 }
 
-.submit_button:hover {
+.submit_button:enabled:hover {
   transform: scale(1.07);
   transition: 1s ease-in-out;
 }
