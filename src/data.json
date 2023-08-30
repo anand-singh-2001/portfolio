@@ -23,7 +23,7 @@
     },
     {
       "title":"GymMaster",
-      "description":["Workout Demos: New to a specific exercise? FitHub provides step-by-step video tutorials and detailed instructions, making sure you execute each movement correctly and effectively."," Virtual Personal Trainer: Can't make it to the gym? No problem! Our app features a virtual personal trainer who guides you through workouts with step-by-step instructions and motivation, replicating the in-person experience from the comfort of your own space."],
+      "description":["Workout Demos: New to a specific exercise? GymMaster provides step-by-step video tutorials and detailed instructions, making sure you execute each movement correctly and effectively."],
       "imageSrc":"Images/gym_app.png",
       "url":"https://gym-application-khaki.vercel.app/"
       
