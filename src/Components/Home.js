@@ -64,8 +64,9 @@ const Home = () => {
             </div>
             <div className="info">
               <a
-                href="https://drive.google.com/file/d/1blVcijWjuWtBWMFEZtYrSDkvhGO5I9yu/view?usp=sharing"
-                target="_blank">
+                href="https://drive.google.com/file/d/1cSZ82lXt-8tFmuPdtbz4glEXK-Pxcvuz/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer">
                 <button className="CV"> RESUME</button>
               </a>
             </div>
