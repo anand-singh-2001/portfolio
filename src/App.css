@@ -46,12 +46,6 @@ body {
   margin-top: -1px;
 }
 
-.nav_face {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  border: 2px solid black;
-}
 .arrow_up {
   display: none;
   height: 40px;
@@ -308,19 +302,6 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
-/* .slick-slide {
-  margin: 0 20px !important;
-} */
-/* .slick-track {
-  display: flex !important;
-} */
-/* .slider .slick-track .slick-slide:first-child {
-  margin-left: 200px;
-}
-
-.slider .slick-track .slick-slide:last-child {
-  margin-right: 200px;
-} */
 
 .overlay {
   position: absolute;

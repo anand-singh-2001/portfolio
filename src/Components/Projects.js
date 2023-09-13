@@ -46,29 +46,6 @@ const Projects = () => {
   };
   return (
     <div className="projects_section" id="projects">
-      {/* <h2 className="heading" style={{ color: "blue" }}>
-        WORK
-      </h2> */}
-      {/* <div
-        style={{
-          position: "relative",
-          minHeight: "200px",
-          fontWeight: "900",
-        }}> */}
-      {/* <Typewriter
-          options={{
-            strings: [
-              "<span >Dig into my works</span>",
-              "<span >...</span>",
-              "<span >Additions on their way</span>",
-            ], //The strings to display in animation, one after the other(loop).
-            autoStart: true,
-            loop: true,
-            cursor: "",
-            wrapperClassName: "typewriterpara1",
-          }}
-        /> */}
-      {/* </div> */}
       <h2 className="heading" style={{ marginBottom: "50px" }}>
         WORK
       </h2>

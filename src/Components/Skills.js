@@ -5,7 +5,13 @@ import { IoLogoJavascript } from "react-icons/io";
 
 import { AiFillHtml5 } from "react-icons/ai";
 import { TbBrandRedux } from "react-icons/tb";
-import { SiExpress, SiFirebase, SiMongodb } from "react-icons/si";
+import {
+  SiExpress,
+  SiFirebase,
+  SiMongodb,
+  SiMui,
+  SiTailwindcss,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -53,6 +59,14 @@ const Skills = () => {
         <div className="boxes">
           <SiMongodb size={70} className="box" />
           <div className="box_overlay">MongoDb</div>
+        </div>
+        <div className="boxes">
+          <SiMui size={70} className="box" />
+          <div className="box_overlay">Material UI</div>
+        </div>
+        <div className="boxes">
+          <SiTailwindcss size={70} className="box" />
+          <div className="box_overlay">Tailwind</div>
         </div>
       </div>
     </>

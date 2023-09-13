@@ -1,9 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import giphy from "../Assets/giphy.gif";
-import Lottie from "lottie-react";
-import animation from "../Assets/nav animation.json";
-import face from "../Assets/face2.png";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -51,7 +48,7 @@ const Navbar = () => {
           className="burger"
           onClick={() => setShow((prev) => !prev)}
           ref={ref}>
-          <img src={face} alt="face" className="nav_face" />
+          <GiHamburgerMenu size={30} />
         </div>
       </nav>
     </>
