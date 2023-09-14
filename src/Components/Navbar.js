@@ -9,6 +9,7 @@ const Navbar = () => {
   useEffect(() => {
     const chechIfClickedOutside = (e) => {
       if (show && ref.current && !ref.current.contains(e.target)) {
+        //setShow to false if the place clicked isn't inside the specific area.
         setShow(false);
       }
     };
@@ -29,15 +30,20 @@ const Navbar = () => {
   });
   return (
     <>
-      <nav className="nav">
-        <div
-          className={show ? "navbar nav-active" : "navbar"}
-          onClick={() => setShow(false)}
-          ref={ref}>
-          <a href="#home">Home</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+      <nav className="nav" ref={ref}>
+        <div className={show ? "navbar nav-active" : "navbar"}>
+          <a href="#home" onClick={() => setShow(false)}>
+            Home
+          </a>
+          <a href="#skills" onClick={() => setShow(false)}>
+            Skills
+          </a>
+          <a href="#projects" onClick={() => setShow(false)}>
+            Projects
+          </a>
+          <a href="#contact" onClick={() => setShow(false)}>
+            Contact
+          </a>
 
           <div className="connect">
             <p style={{ color: "grey", margin: "0 auto" }}>Connect with me.</p>
