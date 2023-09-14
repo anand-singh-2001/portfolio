@@ -1,18 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsLinkedin, BsGithub } from "react-icons/bs";
-import { AiOutlineDown } from "react-icons/ai";
-// import { BiLogoGmail } from "react-icons/bi";
-// import { HiOutlineMail } from "react-icons/hi";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+// import { AiOutlineDown } from "react-icons/ai";
+
 import Skills from "./Skills";
 import Projects from "./Projects";
 import About from "./About";
 import Contacts from "./Contacts";
-// import { AnimatePresence } from "framer-motion";
 
 const Home = () => {
-  //   const [color, setColor] = useState("black");
   const animation = {
     h1: {
       initial: {

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { MdKeyboardArrowUp } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
   document.addEventListener("scroll", () => {
     const navbar = document.querySelector("nav");
 
-    if (window.scrollY > 500) {
+    if (window.scrollY > 150) {
       navbar.classList.add("scrolled");
     } else {
       navbar.classList.remove("scrolled");
@@ -38,11 +38,25 @@ const Navbar = () => {
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-          <MdKeyboardArrowUp
-            className="arrow_up"
-            onClick={() => setShow(false)}
-            ref={ref}
-          />
+
+          <div className="connect">
+            <p style={{ color: "grey", margin: "0 auto" }}>Connect with me.</p>
+            <div className="icons">
+              <a
+                href="https://www.linkedin.com/in/anand-singh-48024721a"
+                target="_blank"
+                rel="noreferrer">
+                <BsLinkedin size={30} color="grey" />
+              </a>
+
+              <a
+                href="https://www.github.com/anand-singh-2001?tab=repositories"
+                target="_blank"
+                rel="noreferrer">
+                <BsGithub size={30} color="grey" />
+              </a>
+            </div>
+          </div>
         </div>
         <div
           className="burger"

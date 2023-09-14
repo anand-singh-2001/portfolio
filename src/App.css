@@ -46,20 +46,9 @@ body {
   margin-top: -1px;
 }
 
-.arrow_up {
+.connect {
+  margin-top: auto;
   display: none;
-  height: 40px;
-  width: 40px;
-  animation: arrow 1.5s ease-in-out infinite;
-}
-
-@keyframes arrow {
-  from {
-    transform: translateY(-10px);
-  }
-  to {
-    transform: translateY(0);
-  }
 }
 
 .navbar {
@@ -71,8 +60,8 @@ body {
 }
 
 .nav a {
-  color: rgb(188, 245, 245);
-  font-weight: bold;
+  color: white;
+  font-weight: 900;
   font-size: 20px;
   transition: all 0.3s;
   letter-spacing: 1px;
@@ -89,7 +78,7 @@ body {
   width: 100%;
   margin: auto;
   text-align: center;
-  background: #06091880;
+  background: #000000d1;
   backdrop-filter: blur(8px);
 }
 
@@ -143,6 +132,7 @@ body {
   text-decoration: none;
   opacity: 10;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .icons > a {
   padding: 0 15px;
@@ -229,10 +219,6 @@ body {
   font-size: 25px;
   font-weight: 800;
   text-align: center;
-  /* background-image: linear-gradient(to left, violet, indigo, green, blue);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text; */
   color: rgb(81, 108, 244);
 }
 
@@ -241,26 +227,6 @@ body {
   width: 100%;
   margin-top: 50px;
 }
-
-/* .typewriterpara1 {
-  font-size: 50px;
-  text-align: center;
-  font-variant: unset;
-  background-image: linear-gradient(
-    to left,
-    violet,
-    indigo,
-    green,
-    blue,
-    yellow,
-    orange,
-    red
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
-} */
 
 .slider {
   height: 90vh;
@@ -664,8 +630,12 @@ body {
   .burger {
     display: block;
   }
-  .arrow_up {
-    display: block;
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
   }
 
   .nav {
@@ -680,21 +650,22 @@ body {
   .navbar {
     position: absolute;
     top: 0px;
-    padding-top: 60px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    width: 100vw;
-    height: 60vh;
-    background: rgba(0, 0, 0, 0.8);
+    width: 70vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 1);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    transform: translateY(-600px);
-    transition: transform 0.5s ease-in;
+    transform: translateX(600px);
+    transition: transform 0.5s ease-in-out;
   }
 
   .nav-active {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   .slider {
     width: 100vw;
