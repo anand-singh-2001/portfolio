@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
   text-decoration: none;
 }
+ol,
+ul {
+  padding: 1rem;
+}
 
 a {
   text-decoration: none;
@@ -414,6 +418,13 @@ body {
   color: rgb(46, 16, 145);
   transform: scale(1.07);
   transition: 1s ease-in-out;
+}
+
+.email {
+  color: whitesmoke;
+}
+.email:hover {
+  color: blueviolet;
 }
 
 @media screen and (min-width: 1250px) and (max-width: 1450px) {

@@ -54,19 +54,19 @@ const Projects = () => {
         {data?.projects?.map((project, id) => (
           <div className={id === index ? "slides active " : "slides"} key={id}>
             <div className="slides_image" key={id}>
-              <img src={project.imageSrc} alt="Project image" />
+              <img src={project.imageSrc} alt="Project img" />
               <div className="overlay">
                 <h2>
                   <strong>{project.title}</strong>
                 </h2>
 
                 {project.description.map((desc, idx) => (
-                  <ul key={idx}>
+                  <ul style={{ textAlign: "center" }} key={idx}>
                     <strong>{desc}</strong>
                   </ul>
                 ))}
 
-                <a href={project.url} target="_blank">
+                <a href={project.url} target="_blank" rel="noreferrer">
                   <button className="visit">Visit site</button>
                 </a>
               </div>

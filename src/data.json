@@ -20,9 +20,7 @@
     {
       "title": "Shopping Cart",
       "description": [
-        "Developed a shopping cart using useReducer () hook and Context API for state management as an alternative to Redux.",
-        "Implemented functionalities like adding and removing products, filtering products based on user specific criteria, etc.",
-        "Suitable for integration into an E-commerce website to efficiently manage the cart section."
+        "A demo shopping cart suitable for integration into an e-commerce application."
       ],
       "imageSrc": "Images/cart1.avif",
       "url": "https://shopping-cart-mu-sage.vercel.app/"
@@ -36,17 +34,18 @@
       "url": "https://gym-application-khaki.vercel.app/"
     },
     {
-      "title": "Yodo",
-      "description": ["Unavailable due to API changes"],
-      "imageSrc": "Images/Yodo1.png"
-    },
-    {
       "title": "Book Keeper",
       "description": [
         "Rediscover the joy of reading and book ownership with our book store application. Your personal library is now just a click away, and every book you love is securely stored for your enjoyment. Welcome to the future of book management!"
       ],
       "imageSrc": "Images/book-store.avif",
       "url": "https://book-store-mern-six.vercel.app/"
+    },
+    {
+      "title": "QuickMemo",
+      "description": ["Got something important to store!??..We got you"],
+      "imageSrc": "Images/note-keeper-2.avif",
+      "url": "https://note-keeper-six.vercel.app/"
     }
   ]
 }

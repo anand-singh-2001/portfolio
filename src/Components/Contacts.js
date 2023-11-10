@@ -39,11 +39,6 @@ const Contacts = () => {
     e.target.reset();
   };
 
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-
-  // };
-
   return (
     <div className="message_section" id="contact">
       <div className="form">
@@ -107,9 +102,10 @@ const Contacts = () => {
         </p>
         <strong style={{ marginTop: "20px" }}>
           <a
+            className="email"
             href="mailto:as504919@gmail.com"
             target="_blank"
-            style={{ color: "whitesmoke" }}>
+            rel="noreferrer">
             <HiOutlineMail size={35} /> <span>as504919@gmail.com</span>
           </a>
         </strong>
